@@ -1,5 +1,5 @@
 import { Button } from '@/registry/default/ui/button';
-import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from '@/registry/default/ui/dialog';
+import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from '@/registry/default/ui/dialog';
 import { Input } from '@/registry/default/ui/input';
 import { Label } from '@/registry/default/ui/label';
 import { ScrollArea } from '@/registry/default/ui/scroll-area'

@@ -9,13 +9,7 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuRadioGroup,
-  DropdownMenuRadioItem,
-  DropdownMenuSeparator,
   DropdownMenuShortcut,
-  DropdownMenuSub,
-  DropdownMenuSubContent,
-  DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from "@/registry/new-york/ui/dropdown-menu"
 export function RecentSales() {
@@ -44,10 +38,7 @@ export function RecentSales() {
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-[160px]">
-              {/* <DropdownMenuItem>Edit</DropdownMenuItem> */}
-              {/* <DropdownMenuItem>Update</DropdownMenuItem> */}
-              {/* <DropdownMenuSeparator /> */}
-              {/* <DropdownMenuSeparator /> */}
+
               <DropdownMenuItem>
                 Delete
                 <DropdownMenuShortcut>⌘⌫</DropdownMenuShortcut>

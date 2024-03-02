@@ -4,8 +4,8 @@ import { DataTable } from "./tasks/components/data-table";
 import { UserNav } from "./tasks/components/user-nav";
 import t from './tasks/data/tasks.json'
 import ModeToggle from '@/registry/default/example/mode-toggle';
-import { Dialog, DialogTrigger } from '@/registry/default/ui/dialog';
-import { Button } from '@/registry/default/ui/button';
+// import { Dialog, DialogTrigger } from '@/registry/default/ui/dialog';
+// import { Button } from '@/registry/default/ui/button';
 interface Task {
   id: string;
   title: string;

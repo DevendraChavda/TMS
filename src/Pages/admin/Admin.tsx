@@ -1,7 +1,7 @@
 // import { SideBar } from "./sidebar/page"
 // import SideBar from './sidebar/page'
 import {SideBar} from './sidebar/components/mail'
-import ModeToggle from '@/registry/default/example/mode-toggle';
+// import ModeToggle from '@/registry/default/example/mode-toggle';
 export default function MailPage() {
   return (
     <>

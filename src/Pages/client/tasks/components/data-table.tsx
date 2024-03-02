@@ -27,13 +27,13 @@ import {
 
 import { DataTablePagination } from "../components/data-table-pagination"
 import { DataTableToolbar } from "../components/data-table-toolbar"
-import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "@/registry/default/ui/dialog"
-import { Button } from "@/registry/default/ui/button"
-import { Label } from "@/registry/default/ui/label"
-import { Input } from "@/registry/default/ui/input"
-import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "@/registry/default/ui/select"
-import { Separator } from "@/registry/default/ui/separator"
-import SeparatorDemo from "@/registry/default/example/separator-demo"
+// import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "@/registry/default/ui/dialog"
+// import { Button } from "@/registry/default/ui/button"
+// import { Label } from "@/registry/default/ui/label"
+// import { Input } from "@/registry/default/ui/input"
+// import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "@/registry/default/ui/select"
+// import { Separator } from "@/registry/default/ui/separator"
+// import SeparatorDemo from "@/registry/default/example/separator-demo"
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]

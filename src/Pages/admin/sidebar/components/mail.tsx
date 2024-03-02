@@ -8,7 +8,7 @@ import {
 } from "lucide-react"
 import { Nav } from "./nav"
 import { Mail } from "../data"
-import { useMail } from "../use-mail"
+// import { useMail } from "../use-mail"
 import { cn } from "@/lib/utils"
 import { Separator } from "@/registry/new-york/ui/separator"
 import { TooltipProvider } from "@/registry/new-york/ui/tooltip"
@@ -27,17 +27,18 @@ interface MailProps {
   navCollapsedSize: number
 }
 // import task from '../../tasks'
-import { NavLink, Outlet } from "react-router-dom"
+import {  Outlet } from "react-router-dom"
 import { ModeToggle } from "@/components/ui/mode-toggle"
 export function SideBar({
   // accounts,
   // mails,
   defaultLayout = [265, 440, 655],
-  defaultCollapsed = false,
+  // defaultCollapsed = false,
   navCollapsedSize,
 }: MailProps) {
-  const [isCollapsed, setIsCollapsed] = React.useState(defaultCollapsed)
-  const [mail] = useMail()
+  // const [isCollapsed, setIsCollapsed] = React.useState(defaultCollapsed)
+  const isCollapsed = false
+  // const [mail] = useMail()
 
   return (
     <TooltipProvider delayDuration={0}>
