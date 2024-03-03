@@ -13,6 +13,7 @@ import AllClient from './Pages/admin/allclient/page'
 import AllServiePro from './Pages/admin/allserviceprovider/page'
 import AdminDashboard from './Pages/admin/dashboard/page'
 import { ThemeProvider } from "./components/ui/theme-provider"
+
 import MailPage from './Pages/admin/Admin'
 import Setting from './Pages/admin/setting/Setting'
 // import Status from './Pages/Status'
@@ -21,6 +22,7 @@ function App() {
 
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+      
         <div>
           <Routes>
             <Route path='/client' element={<Client />} />
@@ -44,5 +46,4 @@ function App() {
     </ThemeProvider>
   )
 }
-
 export default App

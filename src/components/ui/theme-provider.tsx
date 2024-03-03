@@ -29,7 +29,7 @@ export function ThemeProvider({
   const [theme, setTheme] = useState<Theme>(
     () => (localStorage.getItem(storageKey) as Theme) || defaultTheme
   )
-    console.log("in the theme provider")
+
   useEffect(() => {
     const root = window.document.documentElement
 
@@ -44,6 +44,7 @@ export function ThemeProvider({
       root.classList.add(systemTheme)
       return
     }
+
     root.classList.add(theme)
   }, [theme])
 
@@ -54,7 +55,7 @@ export function ThemeProvider({
       setTheme(theme)
     },
   }
-  
+
   return (
     <ThemeProviderContext.Provider {...props} value={value}>
       {children}
